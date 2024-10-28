@@ -1,0 +1,441 @@
+{
+    "name": "TouchInput",
+    "maps": [
+        {
+            "name": "pointer",
+            "id": "44e8f08d-58fc-458f-b32e-b69209d54484",
+            "actions": [
+                {
+                    "name": "point",
+                    "type": "Value",
+                    "id": "255ce6d8-d0d8-4ec3-8373-4ada1264aa22",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "MouseAndPen",
+                    "id": "6f338a14-8886-46b9-a0e9-9c1f437718fc",
+                    "path": "PointerInput",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "contact",
+                    "id": "97f44513-a8e2-47da-83ff-d7392d546900",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "contact",
+                    "id": "fbd84133-ba6d-4701-a9e7-9268c3c020bd",
+                    "path": "<Pen>/tip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "position",
+                    "id": "07bfcfa0-7d17-4d42-819e-a0b3774944ac",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "position",
+                    "id": "5a7a0f40-7e9c-4abd-b239-4649adb57728",
+                    "path": "<Pen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "tilt",
+                    "id": "6c9a0d0d-1f50-4d20-9d68-1165d9697df6",
+                    "path": "<Pen>/tilt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "pressure",
+                    "id": "c265fdad-dc6e-4b0a-9e0b-a4b5fb3f521e",
+                    "path": "<Pen>/pressure",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "twist",
+                    "id": "7979128b-c7d8-4fbd-98df-fd830f552eda",
+                    "path": "<Pen>/twist",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Touch0",
+                    "id": "24c3b08f-f9f3-4d36-b4c8-5929bee1eb65",
+                    "path": "PointerInput",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "contact",
+                    "id": "b7de26b4-b947-4ec6-890d-cfe1d5195d5a",
+                    "path": "<Touchscreen>/touch0/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "position",
+                    "id": "1ee8841d-aad0-4bf6-b607-9d75d1e35bbe",
+                    "path": "<Touchscreen>/touch0/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "radius",
+                    "id": "9f5c3058-f725-4a79-b7da-f39e707994bd",
+                    "path": "<Touchscreen>/touch0/radius",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "pressure",
+                    "id": "b0501962-39af-497c-b718-80bcedeb50a8",
+                    "path": "<Touchscreen>/touch0/pressure",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "inputId",
+                    "id": "a68098f1-cd34-4455-9880-8fb1fbdceaf7",
+                    "path": "<Touchscreen>/touch0/touchId",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Touch1",
+                    "id": "0597f7c1-6b5b-410c-b055-a70ec92913b0",
+                    "path": "PointerInput",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "contact",
+                    "id": "f4ad0a11-0f39-43b1-a02a-769c43b5c15a",
+                    "path": "<Touchscreen>/touch1/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "position",
+                    "id": "1c2a46f2-f53a-4014-85e7-06ef1b7924b0",
+                    "path": "<Touchscreen>/touch1/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "radius",
+                    "id": "aa8b1b75-cae7-44b3-aa4f-e51cc79fb439",
+                    "path": "<Touchscreen>/touch1/radius",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "pressure",
+                    "id": "6a16b972-1de9-4c6c-935d-1e987d895e01",
+                    "path": "<Touchscreen>/touch1/pressure",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "inputId",
+                    "id": "512990e5-3cf3-4e8b-a090-c717c1a380e1",
+                    "path": "<Touchscreen>/touch1/touchId",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Touch2",
+                    "id": "c91922e3-dd06-48d9-a5f1-ae4f9cfd5972",
+                    "path": "PointerInput",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "contact",
+                    "id": "2a16addd-d929-4387-9a9e-7523fd1e55a6",
+                    "path": "<Touchscreen>/touch2/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "position",
+                    "id": "e43c0fa5-a496-457e-b9f6-9af781f590b6",
+                    "path": "<Touchscreen>/touch2/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "radius",
+                    "id": "bc836329-fcab-4578-a869-fe230b749ae1",
+                    "path": "<Touchscreen>/touch2/radius",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "pressure",
+                    "id": "89f4ae37-125c-4416-954f-6f8667c81540",
+                    "path": "<Touchscreen>/touch2/pressure",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "inputId",
+                    "id": "51c17f27-3bfa-4805-aa7c-35de40be1763",
+                    "path": "<Touchscreen>/touch2/touchId",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Touch3",
+                    "id": "ee9f4dbf-c03f-4885-b3ab-1de80da2a9e1",
+                    "path": "PointerInput",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "contact",
+                    "id": "36d4020f-96a9-4a43-b275-ee224997d1eb",
+                    "path": "<Touchscreen>/touch3/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "position",
+                    "id": "01682461-00ef-4297-86f9-2624b7e8503c",
+                    "path": "<Touchscreen>/touch3/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "radius",
+                    "id": "34156a07-ea6c-4d2f-8648-72441c7f1147",
+                    "path": "<Touchscreen>/touch3/radius",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "pressure",
+                    "id": "8d9c5024-64ff-40cf-b5b2-ae63cee3a65c",
+                    "path": "<Touchscreen>/touch3/pressure",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "inputId",
+                    "id": "af5fa454-463b-43fc-98fb-dff9469427a9",
+                    "path": "<Touchscreen>/touch3/touchId",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Touch4",
+                    "id": "edd15949-30f4-46dd-b137-7688e0ab664a",
+                    "path": "PointerInput",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "contact",
+                    "id": "f59d2700-11e5-40c8-86d0-8532f66c5cfc",
+                    "path": "<Touchscreen>/touch4/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "position",
+                    "id": "a340d8ac-9f2d-4de5-b1d2-b141cdbbcf74",
+                    "path": "<Touchscreen>/touch4/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "radius",
+                    "id": "342d10cf-a5b1-4bf6-9b0c-eb98d67a9b28",
+                    "path": "<Touchscreen>/touch4/radius",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "pressure",
+                    "id": "b13a3f84-e397-4f57-b8f9-ac7cf14dd24a",
+                    "path": "<Touchscreen>/touch4/pressure",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "inputId",
+                    "id": "033edba8-0615-4d23-a5c9-3bde18a80166",
+                    "path": "<Touchscreen>/touch4/touchId",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "point",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
